@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SokoMainButton" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:background">@drawable/ihmmenubutton</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <!-- <item name="android:onClick">myClickHandler</item> -->
+    </style>
+	
+	
+	<style name="SokoNewGameButton" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+	
+		
+	<style name="SokoGameLevelsButton" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    
+	<style name="SokoSelectLevelsButton" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+    </style>	
+	 
+	
+</resources>

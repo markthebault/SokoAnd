@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:id="@+id/menuPPRootLayout"
+    >
+	
+
+		<RelativeLayout
+	    	android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+	  	  	android:layout_centerInParent="true"
+	     >
+		<Button
+		    style="@style/SokoMainButton"
+			android:id="@+id/b_resume"
+			android:text="@string/b_resume"
+			
+			/>
+
+			<Button
+			style="@style/SokoMainButton"
+			android:id="@+id/b_newgame"
+			android:text="@string/b_newgame"
+			android:layout_marginTop="70dp"	
+			/>
+		
+		<Button
+		    style="@style/SokoMainButton"
+			android:id="@+id/b_editor"
+			android:text="@string/b_editor"
+			android:layout_marginTop="140dp"
+
+			/>
+		
+		<Button 
+		    style="@style/SokoMainButton"
+			android:id="@+id/b_option"
+			android:text="@string/b_option"
+			android:layout_marginTop="210dp"	
+
+			/>
+		
+		<Button
+		    style="@style/SokoMainButton"
+			android:id="@+id/b_info"
+			android:text="@string/b_info" 
+			android:layout_marginTop="280dp"		
+			/>
+		
+		<Button
+		    style="@style/SokoMainButton"
+			android:id="@+id/b_more"
+			android:text="@string/b_more"
+			android:layout_marginTop="350dp"	
+			/>	
+			
+		</RelativeLayout>
+			
+</RelativeLayout>

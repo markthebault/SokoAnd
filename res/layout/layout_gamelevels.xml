@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    >
+	
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    >
+
+		<Button
+			android:id="@+id/b_previousPageLevel"
+			android:text="Previous"
+			
+			style="@style/SokoSelectLevelsButton"	
+			
+			/>
+			
+		<Button
+			android:id="@+id/b_nextPageLevel"
+			android:text="Next"
+			
+			android:layout_marginLeft="80dp"
+			style="@style/SokoSelectLevelsButton"	
+			/>
+			
+	</LinearLayout>
+	
+	
+	<RelativeLayout
+    android:layout_width="200dp"
+  	android:layout_height="200dp"
+    android:layout_centerInParent="true"
+     >
+	<TableLayout 
+		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+		xmlns:android="http://schemas.android.com/apk/res/android">
+		
+		<TableRow
+		    android:layout_weight="1"
+		>
+				<Button
+					style="@style/SokoGameLevelsButton"
+					android:id="@+id/b_lvl1"
+					android:text="1"
+					/>
+
+				<Button
+					style="@style/SokoGameLevelsButton"
+					android:id="@+id/b_lvl2"
+					android:text="2"
+					/>
+				
+				<Button
+					style="@style/SokoGameLevelsButton"
+					android:id="@+id/b_lvl3"
+					android:text="3"
+					/>
+		</TableRow>
+		
+		<TableRow
+			android:layout_weight="1"
+		>
+				<Button
+					style="@style/SokoGameLevelsButton"
+					android:id="@+id/b_lvl4"
+					android:text="4"
+					/>
+
+				<Button
+					style="@style/SokoGameLevelsButton"
+					android:id="@+id/b_lvl5"
+					android:text="5"
+					/>
+				
+				<Button
+					style="@style/SokoGameLevelsButton"
+					android:id="@+id/b_lvl6"
+					android:text="6"
+					/>
+		</TableRow>
+		
+		<TableRow
+		    android:layout_weight="1"
+		    >
+				<Button
+					style="@style/SokoGameLevelsButton"
+					android:id="@+id/b_lvl7"
+					android:text="7"
+					/>
+
+				<Button
+					style="@style/SokoGameLevelsButton"
+					android:id="@+id/b_lvl8"
+					android:text="8"
+					/>
+				
+				<Button
+					style="@style/SokoGameLevelsButton"
+					android:id="@+id/b_lvl9"
+					android:text="9"
+					/>
+		</TableRow>
+		
+		
+	</TableLayout>
+	</RelativeLayout>
+			
+</RelativeLayout>

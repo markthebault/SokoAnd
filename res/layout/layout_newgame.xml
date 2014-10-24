@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    >
+	
+		<RelativeLayout
+		    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+		     >
+			<Button
+			    style="@style/SokoNewGameButton"
+				android:id="@+id/b_originalsLevels"
+				android:text="@string/b_originalsLevels"
+				
+				/>
+	
+			<Button
+				style="@style/SokoNewGameButton"
+				android:id="@+id/b_myLevels"
+				android:text="@string/b_myLevels"
+				android:layout_marginTop="70dp"	
+				/>
+		
+		
+		</RelativeLayout>
+			
+</RelativeLayout>

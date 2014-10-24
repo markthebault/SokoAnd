@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LookXMLActivity!</string>
+    <string name="app_name">SocoAnd</string>
+    
+	<!--String of menus-->
+    <string name="m_quit">Quit</string>
+    <string name="m_info">Info</string>
+	<string name="m_back">Back</string>
+    
+	<!--Button of main view -->
+    <string name="b_resume">Resume game</string>
+    <string name="b_newgame">New Game</string>
+    <string name="b_editor">Editor</string>
+    <string name="b_option">Option</string>
+    <string name="b_info">Info</string>
+    <string name="b_more">More</string>
+	
+	<!--Button of new game view -->
+    <string name="b_originalsLevels">Original levels</string>
+    <string name="b_myLevels">My levels</string>
+     
+
+    
+
+</resources>
